@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.submit{
+ background-color: blue;
+ color: azure;
+}
