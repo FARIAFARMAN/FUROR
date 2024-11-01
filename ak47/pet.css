@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    color: rgb(0, 0,0);
+    font-family: poppins;
+}  
+ .card{
+    background-color: #6d653ae0;
+    border-radius: 15px;
+    display: flex ;
+    flex-direction: column;
+    padding-left: 0px;
+    overflow: hidden;
+    width: 1000px;
+    box-shadow: 0 4px 8px rgba (71,67,67,0.05);
+}
+.navbar{
+    display: flex;
+    align-items:center ;
+}
