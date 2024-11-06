@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+        const contact = {
+           'full-name': 'FARIA',
+            phonenumber: '555-9999',
+            email: 'faria@gmail.com',
+            address: {
+                    streeet: 'NED university',
+                    city: 'karachi',
+                    country: 'Pakistan'
+              }
+        };
+        console.log(contact)   
+        contact.gender = 'female';
+        contact.log = '6666';
+        delete contact.gender;
+        console.log(contact);   
+        console.log(contact['full-name'])
+            
+       
+        const contact2 = {
+            name: 'Emaila',
+            phonenumber:'777',
+            greet () {
+                return `This is ${this.name}`;
+            },
+            city: 'karachi' 
+        };
+         console.log(contact2);
+         console.log(contact2.greet ());
+        
+                                                                                                                                                                                                                          
+
+
+</script>
+</html>
